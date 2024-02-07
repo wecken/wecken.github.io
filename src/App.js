@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg"
+import "./App.css"
 
 function App() {
   return (
@@ -11,15 +11,15 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://wecken.github.io/portfolio"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Portfolio改修中。それまでこっち見てや〜
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
