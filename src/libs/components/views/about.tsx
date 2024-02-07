@@ -8,6 +8,7 @@ import zennLogo from "assets/images/icon_zenn_symbol_logo.svg"
 import noteLogo from "assets/images/icon_note_symbol_logo.svg"
 import xLogo from "assets/images/icon_x_symbol_logo.svg"
 import linkedinLogo from "assets/images/icon_linkedin_symbol_logo.svg"
+import { useNavigate } from "react-router-dom"
 
 function About(): React.ReactElement {
   const { t } = useTranslation()
@@ -68,10 +69,11 @@ function About(): React.ReactElement {
     position: relative;
   `
 
-  const StyledWorksCoverContainer = styled.a`
+  const StyledWorksCoverContainer = styled(ButtonBase)`
     text-decoration: none;
     display: flex;
     position: relative;
+    width: 100%;
     padding: 24px;
     height: 260px;
     background-color: #2c2c2c;
@@ -93,6 +95,10 @@ function About(): React.ReactElement {
     padding: 0;
     color: ${(props) => props.theme.palette.wecken.white.high};
   `
+  const navigate = useNavigate()
+  const onClickWorks = () => {
+    navigate("/works/")
+  }
 
   return (
     <Grid
@@ -126,13 +132,7 @@ function About(): React.ReactElement {
         </Box>
 
         <Box mb={4} style={{ width: "100%" }}>
-          <StyledWorksCoverContainer href="/works">
-            <Typography variant="h2" color={"#fff"}>
-              Works
-            </Typography>
-            <Typography variant="body2" color={"#fff"}>
-              {t("Here are my previous works")}
-            </Typography>
+          <StyledWorksCoverContainer onClick={onClickWorks}>
             <img
               src={worksCover}
               alt={"Previous works"}
@@ -142,8 +142,32 @@ function About(): React.ReactElement {
                 position: "absolute",
                 bottom: 0,
                 right: 0,
+                zIndex: 0,
               }}
             />
+            <Box
+              width={"50%"}
+              zIndex={1}
+              padding={2}
+              sx={{ backdropFilter: "blur(40px)" }}
+            >
+              <Typography
+                variant="h2"
+                color={"#fff"}
+                textAlign={"left"}
+                sx={{ textShadow: "#000000d4 0px 0px 2px;" }}
+              >
+                Works
+              </Typography>
+              <Typography
+                variant="body2"
+                color={"#fff"}
+                textAlign={"left"}
+                sx={{ textShadow: "#000000d4 0px 0px 2px;" }}
+              >
+                {t("Here are my previous works")}
+              </Typography>
+            </Box>
             <Box display={"flex"} flex={1} />
             <Typography variant="button" color={"#fff"}>
               {t("Show more")}
