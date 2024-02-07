@@ -65,15 +65,15 @@ export const JA_JP = {
     "Please contact me if you need help with the following types of design work.":
       "以下のようなデザイン業務でお困りの方は、ぜひご連絡ください。",
     "- Consulting UI design (for consumer and for business)":
-      "- UIデザインコンサルティング（コンシューマー向け、ビジネス向け)",
+      "・UIデザインコンサルティング（コンシューマー向け、ビジネス向け)",
     "- UI design mock-up creation using Figma":
-      "- Figmaを用いたUIデザインモックアップの作成",
+      "・Figmaを用いたUIデザインモックアップの作成",
     "- Interpreting / Translating business English, especially IT domain":
-      "- ビジネス英語（特にIT分野）の通訳・翻訳",
+      "・ビジネス英語（特にIT分野）の通訳・翻訳",
     "- Consulting / Designing usability research":
-      "- ユーザビリティ調査の設計・コンサルティング",
+      "・ユーザビリティ調査の設計・コンサルティング",
     "- Consulting UI Design workshop, and holding online seminars":
-      "- UIデザインワークショップのコンサルティング、オンラインセミナーの開催",
+      "・UIデザインワークショップのコンサルティング、オンラインセミナーの開催",
     "Here are my previous works":
       "過去の制作物に関してはこちらをご覧ください。",
     "Project manager": "プロジェクトマネージャー",
@@ -106,5 +106,9 @@ export const JA_JP = {
       "しかし、今回は配送やカスタマーサポートも請け負うサービスを提供しました。そこで、「ショッパーアプリ」というバックオフィスツールを設計する必要がありました。ショッパーアプリでは、パーソナルショッパーと呼ばれるエージェントが、エンドユーザーの代わりに店内で買い物を行い、配送手続きも行う必要がありました。",
     kurashiru_delivery_article_paragraph_03:
       "ショッパーアプリ、ECフロントエンド、さらにはECで販売する商品を管理するためのAdmin Webアプリなど、UI/UXを総合的にデザインしました。",
+    skill_explanation_paragraph_01:
+      "Weckenは、Figmaで製品レベルのUIモックアップを作成することを得意としており、Adobe XDやProtoPieを含む、主要なUI/UXプロトタイピング・ツールを使いこなしています。また、多くのUI/UXデザイナーと同様に、PhotoshopやIllustratorにも精通していますが、今日のワークフローにおいて最も効率的であるFigmaを好んで使用しています。",
+    skill_explanation_paragraph_02:
+      "UI/UXデザインにおけるクラフツマンシップを重要視し、デザインとコーディングの両方にチャレンジしています。過去のプロジェクトではTypeScript、Swift、SwiftUIで実際にコーディングを行い製品開発しました。これは、それぞれのプラットフォームで最適なユーザー体験をデザイナーが直接ユーザーに提供することを最重要視しているからに他なりません。",
   },
 }

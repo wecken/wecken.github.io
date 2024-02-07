@@ -64,8 +64,8 @@ export const EN_US = {
       "Wecken is currently working for a company that is offering consumer mobile app, and is also working on several UI design projects on the side project.",
     "Please contact me if you need help with the following types of design work.":
       "Please contact me if you need help with the following types of design work.",
-    "- Consulting UI design (for consumer and for business":
-      "- Consulting UI design (for consumer and for business",
+    "- Consulting UI design (for consumer and for business)":
+      "- Consulting UI design (for consumer and for business)",
     "- UI design mock-up creation using Figma":
       "- UI design mock-up creation using Figma",
     "- Interpreting / Translating business English, especially IT domain":
@@ -98,5 +98,9 @@ export const EN_US = {
       "However, this time we offered the service that also takes care of the delivery and the customer support. Therefore, I needed to design a back-office tool called the Shopper App. With the shopper app, our affiliated agent called the personal shopper needed to be able to carry out the in-store shopping on behalf of our end-users and complete the delivery process.",
     kurashiru_delivery_article_paragraph_03:
       "I designed the overall UI / UX including the Shopper app, EC frontend, and even Admin web app for managing the products we sell on the EC.",
+    skill_explanation_paragraph_01:
+      "Wecken excels at creating high-fidelity mock-ups in Figma, demonstrating his proficiency with leading UI/UX prototyping tools, including Adobe XD and ProtoPie. Although he is adept with Photoshop and Illustrator, similar to many UI/UX designers, he prefers Figma for its widespread use and efficiency in modern workflows.",
+    skill_explanation_paragraph_02:
+      "He values craftsmanship in UI/UX design deeply, fostering a highly adaptable approach to both design and coding. This versatility has empowered him to personally code in TypeScript, Swift, and SwiftUI across past projects, aiming to deliver the optimal user experience on diverse platforms directly to users.",
   },
 }
