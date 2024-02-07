@@ -3,8 +3,7 @@ import kyoto from "assets/images/shorenin.jpg"
 import { Box, ButtonBase, Grid, Typography } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import styled from "@emotion/styled"
-import MediaCard from "../molecules/MediaCard"
-import kurashiruStore from "assets/images/kurashiru_store_banner.jpg"
+import worksCover from "assets/images/works_cover_image.png"
 import zennLogo from "assets/images/icon_zenn_symbol_logo.svg"
 import noteLogo from "assets/images/icon_note_symbol_logo.svg"
 import xLogo from "assets/images/icon_x_symbol_logo.svg"
@@ -69,6 +68,20 @@ function About(): React.ReactElement {
     position: relative;
   `
 
+  const StyledWorksCoverContainer = styled.a`
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    padding: 24px;
+    height: 260px;
+    background-color: #2c2c2c;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+  `
+
   const StyledCoverText = styled(Typography)`
     position: absolute;
     top: 50%;
@@ -113,12 +126,29 @@ function About(): React.ReactElement {
         </Box>
 
         <Box mb={4} style={{ width: "100%" }}>
-          <MediaCard
-            title={t("Works")}
-            body={t("Here are my previous works")}
-            imageSrc={kurashiruStore}
-            to={"/works"}
-          />
+          <StyledWorksCoverContainer href="/works">
+            <Typography variant="h2" color={"#fff"}>
+              Works
+            </Typography>
+            <Typography variant="body2" color={"#fff"}>
+              {t("Here are my previous works")}
+            </Typography>
+            <img
+              src={worksCover}
+              alt={"Previous works"}
+              style={{
+                maxWidth: "100%",
+                width: "200px",
+                position: "absolute",
+                bottom: 0,
+                right: 0,
+              }}
+            />
+            <Box display={"flex"} flex={1} />
+            <Typography variant="button" color={"#fff"}>
+              {t("Show more")}
+            </Typography>
+          </StyledWorksCoverContainer>
         </Box>
 
         <Box

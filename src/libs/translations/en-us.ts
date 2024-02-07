@@ -102,5 +102,6 @@ export const EN_US = {
       "Wecken excels at creating high-fidelity mock-ups in Figma, demonstrating his proficiency with leading UI/UX prototyping tools, including Adobe XD and ProtoPie. Although he is adept with Photoshop and Illustrator, similar to many UI/UX designers, he prefers Figma for its widespread use and efficiency in modern workflows.",
     skill_explanation_paragraph_02:
       "He values craftsmanship in UI/UX design deeply, fostering a highly adaptable approach to both design and coding. This versatility has empowered him to personally code in TypeScript, Swift, and SwiftUI across past projects, aiming to deliver the optimal user experience on diverse platforms directly to users.",
+    "Show more": "Show more",
   },
 }
