@@ -1,16 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.039c4433.js",
-    "static/js/592.dddf07f3.chunk.js": "/static/js/592.dddf07f3.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.9453844c.js",
+    "static/js/787.41186040.chunk.js": "/static/js/787.41186040.chunk.js",
+    "static/media/buy_ingredients.gif": "/static/media/buy_ingredients.3ebccfc61af05c7b71f7.gif",
+    "static/media/EOW_Animation.gif": "/static/media/EOW_Animation.c4103f9cf96c108d3f88.gif",
+    "static/media/kurashiru_store_ui.png": "/static/media/kurashiru_store_ui.6120f211a923d6394e54.png",
+    "static/media/admin_app.gif": "/static/media/admin_app.c82cfff39b3943bb16e7.gif",
+    "static/media/shopper_app_map.gif": "/static/media/shopper_app_map.c028f5e4aed09a09edc7.gif",
+    "static/media/shorenin.jpg": "/static/media/shorenin.52d21905c50a11982040.jpg",
+    "static/media/MBUX_FTS.png": "/static/media/MBUX_FTS.a504a5eab8bf85daaa33.png",
+    "static/media/kurashiru_store_banner.jpg": "/static/media/kurashiru_store_banner.4d638d62eddc7a749bd7.jpg",
+    "static/media/kurashiru_store_spec.png": "/static/media/kurashiru_store_spec.da3731e41284985fe7cf.png",
+    "static/media/kurashiru_store_creative.png": "/static/media/kurashiru_store_creative.0415915be0435783724f.png",
+    "static/media/netsuper_image_01.png": "/static/media/netsuper_image_01.b8bac067d256d3afc1bf.png",
+    "static/media/MBUX.jpg": "/static/media/MBUX.376bdc94d8bb211ed255.jpg",
+    "static/media/MBUX_Flick.png": "/static/media/MBUX_Flick.35d5252ced94e16cb814.png",
+    "static/media/kurashiru_delivery_cover.jpeg": "/static/media/kurashiru_delivery_cover.8639b38bef4d587a4d4f.jpeg",
+    "static/media/kurashiru_store_flow.png": "/static/media/kurashiru_store_flow.0c5d80e0f71df7404777.png",
+    "static/media/kurashiru_net-super_integration.png": "/static/media/kurashiru_net-super_integration.41cf9d0d9de16302a420.png",
     "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.039c4433.js.map": "/static/js/main.039c4433.js.map",
-    "592.dddf07f3.chunk.js.map": "/static/js/592.dddf07f3.chunk.js.map"
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.9453844c.js.map": "/static/js/main.9453844c.js.map",
+    "787.41186040.chunk.js.map": "/static/js/787.41186040.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.039c4433.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.9453844c.js"
   ]
 }
