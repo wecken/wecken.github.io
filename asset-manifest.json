@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.9453844c.js",
+    "main.js": "/static/js/main.ffc49b00.js",
     "static/js/787.41186040.chunk.js": "/static/js/787.41186040.chunk.js",
     "static/media/buy_ingredients.gif": "/static/media/buy_ingredients.3ebccfc61af05c7b71f7.gif",
     "static/media/EOW_Animation.gif": "/static/media/EOW_Animation.c4103f9cf96c108d3f88.gif",
@@ -19,13 +19,17 @@
     "static/media/kurashiru_delivery_cover.jpeg": "/static/media/kurashiru_delivery_cover.8639b38bef4d587a4d4f.jpeg",
     "static/media/kurashiru_store_flow.png": "/static/media/kurashiru_store_flow.0c5d80e0f71df7404777.png",
     "static/media/kurashiru_net-super_integration.png": "/static/media/kurashiru_net-super_integration.41cf9d0d9de16302a420.png",
+    "static/media/icon_linkedin_symbol_logo.svg": "/static/media/icon_linkedin_symbol_logo.e1c754621a84bde31f85526a737c75e1.svg",
+    "static/media/icon_note_symbol_logo.svg": "/static/media/icon_note_symbol_logo.64d5cd9ce0b3577a2a471b71d2928846.svg",
     "index.html": "/index.html",
+    "static/media/icon_zenn_symbol_logo.svg": "/static/media/icon_zenn_symbol_logo.5598c24ea8a5c90f1cd754ec5014af54.svg",
+    "static/media/icon_x_symbol_logo.svg": "/static/media/icon_x_symbol_logo.d5a1b2acf762768753b3f7f949a1e595.svg",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.9453844c.js.map": "/static/js/main.9453844c.js.map",
+    "main.ffc49b00.js.map": "/static/js/main.ffc49b00.js.map",
     "787.41186040.chunk.js.map": "/static/js/787.41186040.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.9453844c.js"
+    "static/js/main.ffc49b00.js"
   ]
 }
