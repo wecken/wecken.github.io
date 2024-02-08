@@ -58,7 +58,7 @@ export const JA_JP = {
     eow_article_pargraph_02:
       "一覧と詳細表示の効率的なインタラクションを実現するために、滑らかなアニメーションを実現したいと思いました。アニメーションで遷移することで、ユーザーは各インタラクションの後に迷うことがなくなるのです",
     "Wecken is a Japan-based UI/UX designer, good at mobile app UI design with a good understanding of front end engineering. This web site is designed and coded by Wecken":
-      "Weckenは日本在住のUI/UXデザイナーです。モバイルアプリのUIデザインを得意とし、フロントエンド開発についても知識があります。このウェブサイトはWeckenによってデザイン、コーディングされています。",
+      "Weckenは日本在住のUI/UXデザイナーです。モバイルアプリのUIデザインを得意とし、フロントエンド開発についても知識があります。このウェブサイトはWeckenによってデザイン、React / TypeScriptでコーディングされています。",
     "About Wecken": "Weckenについて",
     "Wecken is currently working for a company that is offering consumer mobile app, and is also working on several UI design projects on the side project.":
       "Weckenは現在、消費者向けモバイルアプリを提供している会社に勤務しており、サイドプロジェクトとしていくつかのUIデザインプロジェクトにも携わっています。",
@@ -111,5 +111,22 @@ export const JA_JP = {
     skill_explanation_paragraph_02:
       "UI/UXデザインにおけるクラフツマンシップを重要視し、デザインとコーディングの両方にチャレンジしています。過去のプロジェクトではTypeScript、Swift、SwiftUIで実際にコーディングを行い製品を開発しました。これは、それぞれのプラットフォームで最適なユーザー体験をデザイナーが直接ユーザーに提供することを最重要視しているからに他なりません。",
     "Show more": "さらに表示",
+    "'Netsuper' Integration on Kurashiru App":
+      "イオンネットスーパーをクラシルアプリに統合",
+    "Shop the Best, Skip the Rest – Your Online Grocery Revolution":
+      "「最高品質 即日配達」- 仕入れから配達まで自社手配でネットスーパーの完成系へ",
+    "Project management (scrum)": "プロジェクト管理（スクラム）",
+    kurashiru_mart_article_paragraph_01:
+      "以前の「クラシルデリバリー」では、小売業者との提携により、迅速な食料品のオンラインショッピング体験を提供していました。しかし、このモデルでは本質的には「配送」の部分のみが提供価値となるため、事業の成長に大きな制約があることを認識しました。また、利用者が送料を負担することに抵抗を感じていることもわかりました。この洞察により、私たちは「ダークストア」ビジネスモデルを採用することになりました。",
+    kurashiru_mart_article_paragraph_02:
+      "ダークストア・モデルでは、商品を卸から仕入れ、小売パートナーを介することなく消費者に直接販売します。ダークストア店舗はオンラインのみで運営され、物理的な入店の必要がありません。これにより、在庫管理が合理化されるだけでなく、購入後の欠品を理論上ゼロにできるため、顧客満足度も向上します。",
+    kurashiru_mart_article_paragraph_03:
+      "このモデルを採用するにあたって、UI/UXデザインを全面的に見直す必要がありました。以前は、販売する商品に対する影響力がなかったため、その点ではショッピング体験を向上させることができませんでした。ダークストアモデルを採用したKurashiru Martでは、商品の品揃えを直接管理できるようになったため、単に迅速な配送を提供するだけでなく、ユーザーのエンゲージメントをより高め、商品を売り込むことの重要性が増しました。会員制プログラムやポイントおみくじなどの革新的な機能の導入を促し、顧客エンゲージメントと満足度をさらに向上させることに注力しました。",
+    "This view was designed an coded by Wecken in React Native":
+      "この画面はWeckenがデザインとコーディングの両方を行なって実装しました。",
+    "Wecken aimed to provide a fun and native-app-like experience with the lottery feature. To achieve this, he utilized the device's motion sensor to facilitate the lottery drawing.":
+      "Weckenは、おみくじ機能でネイティブアプリらしい楽しい体験を提供することを目指しました。これを実現するために、彼はデバイスのモーションセンサーを利用しておみくじを引く機能を実装しました。",
+    short_descripton_kurashiru_mart_01:
+      "Eコマースのビジネスモデルを追求する私たちの旅は、絶え間ない挑戦の歴史でした。Kurashiru Martではさらなる高みを求めて小売市場への参入という、最も過酷な最終章を迎えたのです。",
   },
 }

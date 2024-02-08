@@ -14,6 +14,7 @@ import styled from "@emotion/styled"
 import About from "libs/components/views/about"
 import NetsuperIntegration from "libs/components/views/netsuperIntegration"
 import KurashiruDelivery from "libs/components/views/kurashiruDelivery"
+import KurashiruMart from "libs/components/views/kurashiruMart"
 const resources = {
   ja: JA_JP,
   en: EN_US,
@@ -59,6 +60,7 @@ function App() {
               path="/works/kurashiru_delivery"
               element={<KurashiruDelivery />}
             />
+            <Route path="/works/kurashiru_mart" element={<KurashiruMart />} />
           </Routes>
         </Root>
       </ThemeProvider>

@@ -57,7 +57,7 @@ export const EN_US = {
       "Before I redesigned it, there were too many screen transitions making the app feel like inneficient to use. Because the app is famous for the amount of example sentenses, I wanted the app to be more efficient when user is searching for a best suitable result from many of those.",
     eow_article_pargraph_02:
       "I wanted to have a fluent animation to realize efficient interaction between master and detail views. Because of animated transition, user won't feel getting lost after each interaction.",
-    "Wecken is a Japan-based UI/UX designer, good at mobile app UI design with a good understanding of front end engineering. This web site is designed and coded by Wecken":
+    "Wecken is a Japan-based UI/UX designer, good at mobile app UI design with a good understanding of front end engineering. This web site is designed and coded by Wecken in React / TypeScript":
       "Wecken is a Japan-based UI/UX designer, good at mobile app UI design with a good understanding of front end engineering. This web site is designed and coded by Wecken",
     "About Wecken": "About Wecken",
     "Wecken is currently working for a company that is offering consumer mobile app, and is also working on several UI design projects on the side project.":
@@ -103,5 +103,22 @@ export const EN_US = {
     skill_explanation_paragraph_02:
       "He values craftsmanship in UI/UX design deeply, fostering a highly adaptable approach to both design and coding. This versatility has empowered him to personally code in TypeScript, Swift, and SwiftUI across past projects, aiming to deliver the optimal user experience on diverse platforms directly to users.",
     "Show more": "Show more",
+    "'Netsuper' Integration on Kurashiru App":
+      "Online supermarket Integration on Kurashiru App",
+    "Shop the Best, Skip the Rest – Your Online Grocery Revolution":
+      "Shop the Best, Skip the Rest – Your Online Grocery Revolution",
+    "Project management (scrum)": "Project management (scrum)",
+    kurashiru_mart_article_paragraph_01:
+      "In our previous iteration of Kurashiru Delivery, we partnered with retailers to offer a rapid online grocery shopping experience. However, we recognized that this model inherently limited our value proposition to merely 'delivery', imposing significant constraints on business growth. Furthermore, we discovered a general reluctance among users to bear shipping costs. These insights led us to adopt the 'dark store' business model.",
+    kurashiru_mart_article_paragraph_02:
+      "In the dark store model, we procure products directly from wholesalers and sell them directly to consumers, bypassing traditional retail intermediaries. Our dark store operations are conducted exclusively online, eliminating the need for physical customer visits. This approach not only streamlines inventory management but also theoretically eliminates the possibility of out-of-stock situations post-purchase, thereby significantly enhancing customer satisfaction.",
+    kurashiru_mart_article_paragraph_03:
+      "Adopting this model necessitated a comprehensive overhaul of our UI/UX design. Previously, our limited influence over the inventory restricted our ability to enhance the shopping experience. Now, with direct control over our product range, we've shifted our focus towards optimizing sales and engagement rather than merely facilitating delivery. This shift inspired the introduction of innovative features, such as membership programs, further enriching our customer engagement and satisfaction.",
+    "This view was designed an coded by Wecken in React Native":
+      "This view was designed an coded by Wecken in ReactNative",
+    "Wecken aimed to provide a fun and native-app-like experience with the lottery feature. To achieve this, he utilized the device's motion sensor to facilitate the lottery drawing.":
+      "Wecken aimed to provide a fun and native-app-like experience with the lottery feature. To achieve this, he utilized the device's motion sensor to facilitate the lottery drawing.",
+    short_descripton_kurashiru_mart_01:
+      "Our journey to develop the E-Commerce business model has been one of persistent struggle, culminating in our bold entry into the challenging yet expansive retail market, a sector where success has been elusive but our determination unwavering.",
   },
 }
