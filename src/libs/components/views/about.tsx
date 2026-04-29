@@ -88,12 +88,14 @@ function About(): React.ReactElement {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: calc(100% - 32px);
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
     color: ${(props) => props.theme.palette.wecken.white.high};
+    text-align: center;
   `
   const navigate = useNavigate()
   const onClickWorks = () => {

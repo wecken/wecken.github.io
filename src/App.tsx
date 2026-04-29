@@ -42,6 +42,7 @@ i18n
 const Root = styled.div`
   background-color: ${(props) => props.theme.palette.wecken.black[10]};
   min-height: 100vh;
+  padding-bottom: 96px;
   color: ${(props) => props.theme.palette.wecken.black.high};
 `
 
