@@ -2,6 +2,10 @@ export const EN_US = {
   translation: {
     lang_ja: "Japanese",
     lang_en: "English",
+    "Current Language": "Current Language",
+    "Language settings": "Language settings",
+    "Switch to ja": "Switch to Japanese",
+    "Switch to en": "Switch to English",
     "Wecken's Works": "Wecken's Works",
     card_description_kurashiru_store_01:
       "Online select shop for quality food and sweets in the biggest recipe video app in Japan 'kurashiru' (service ended in 2020)",

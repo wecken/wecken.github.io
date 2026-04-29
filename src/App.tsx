@@ -15,6 +15,7 @@ import About from "libs/components/views/about"
 import NetsuperIntegration from "libs/components/views/netsuperIntegration"
 import KurashiruDelivery from "libs/components/views/kurashiruDelivery"
 import KurashiruMart from "libs/components/views/kurashiruMart"
+import LanguageSwitcher from "libs/components/molecules/LanguageSwitcher"
 const resources = {
   ja: JA_JP,
   en: EN_US,
@@ -29,6 +30,10 @@ i18n
     resources,
     // lng: initialLang,
     fallbackLng: "en",
+    detection: {
+      order: ["localStorage", "navigator", "htmlTag"],
+      caches: ["localStorage"],
+    },
     interpolation: {
       escapeValue: false,
     },
@@ -62,6 +67,7 @@ function App() {
             />
             <Route path="/works/kurashiru_mart" element={<KurashiruMart />} />
           </Routes>
+          <LanguageSwitcher />
         </Root>
       </ThemeProvider>
     </>

@@ -2,6 +2,10 @@ export const JA_JP = {
   translation: {
     lang_ja: "Japanese",
     lang_en: "English",
+    "Current Language": "現在の言語",
+    "Language settings": "言語設定",
+    "Switch to ja": "日本語に切り替え",
+    "Switch to en": "英語に切り替え",
     "Wecken's Works": "過去の制作",
     Works: "制作",
     card_description_kurashiru_store_01:
