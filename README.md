@@ -1,46 +1,98 @@
-# Getting Started with Create React App
+# wecken.github.io
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Wecken's portfolio website published with GitHub Pages.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This is a static portfolio site built with Create React App, React, TypeScript, MUI, Emotion, React Router, and i18next.
 
-### `npm start`
+The site includes:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- About page
+- Works list
+- Individual work detail pages
+- Japanese and English translation resources
+- Shared theme and reusable UI components
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Repository
 
-### `npm test`
+- GitHub repository: `git@github.com:wecken/wecken.github.io.git`
+- Development branch: `main`
+- GitHub Pages deployment branch: `gh-pages`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The current local `main` branch tracks `origin/main`. The repository also has an `origin/gh-pages` branch, and `package.json` includes a deploy script that builds the app and publishes the `build` directory to `gh-pages`.
 
-### `npm run build`
+## Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```text
+src/
+  App.tsx
+  index.tsx
+  assets/images/
+  libs/
+    components/
+      molecules/
+      utils/
+      views/
+    theme/
+    translations/
+  types/
+public/
+build/
+static/
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Key files:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `src/index.tsx`: React entry point and router setup
+- `src/App.tsx`: Route definitions, i18next setup, and global theme wrapper
+- `src/libs/components/views/`: Page-level components
+- `src/libs/components/molecules/`: Reusable UI components
+- `src/libs/theme/`: MUI and Emotion theme setup
+- `src/libs/translations/`: Japanese and English translation resources
 
-### `npm run eject`
+## Development
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Install dependencies:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Start the local development server:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+npm start
+```
 
-## Learn More
+The app runs at [http://localhost:3000](http://localhost:3000).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create a production build:
+
+```sh
+npm run build
+```
+
+The production files are generated in `build/`.
+
+## Deploy
+
+Deploy to GitHub Pages:
+
+```sh
+npm run deploy
+```
+
+This runs:
+
+```sh
+yarn build && gh-pages -d build
+```
+
+and publishes the generated `build` directory to the `gh-pages` branch.
+
+## Notes
+
+Some built files are present in the repository root and `static/`, while the normal Create React App production output is generated under `build/`. For future maintenance, prefer treating `src/` as the source of truth and `build/` / `gh-pages` as deployment output.
