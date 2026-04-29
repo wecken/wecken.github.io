@@ -18,6 +18,11 @@ declare module "@emotion/react" {
         white: {
           high: string
         }
+        surface: {
+          high: string
+          elevated: string
+          header: string
+        }
       }
     }
   }

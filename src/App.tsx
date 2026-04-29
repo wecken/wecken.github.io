@@ -15,7 +15,7 @@ import About from "libs/components/views/about"
 import NetsuperIntegration from "libs/components/views/netsuperIntegration"
 import KurashiruDelivery from "libs/components/views/kurashiruDelivery"
 import KurashiruMart from "libs/components/views/kurashiruMart"
-import LanguageSwitcher from "libs/components/molecules/LanguageSwitcher"
+import SettingsButton from "libs/components/molecules/SettingsButton"
 const resources = {
   ja: JA_JP,
   en: EN_US,
@@ -42,8 +42,9 @@ i18n
 const Root = styled.div`
   background-color: ${(props) => props.theme.palette.wecken.black[10]};
   min-height: 100vh;
-  padding-bottom: 96px;
+  padding-bottom: 88px;
   color: ${(props) => props.theme.palette.wecken.black.high};
+  transition: background-color 160ms ease, color 160ms ease;
 `
 
 function App() {
@@ -68,7 +69,7 @@ function App() {
             />
             <Route path="/works/kurashiru_mart" element={<KurashiruMart />} />
           </Routes>
-          <LanguageSwitcher />
+          <SettingsButton />
         </Root>
       </ThemeProvider>
     </>

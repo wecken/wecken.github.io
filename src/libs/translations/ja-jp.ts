@@ -6,6 +6,13 @@ export const JA_JP = {
     "Language settings": "言語設定",
     "Switch to ja": "日本語に切り替え",
     "Switch to en": "英語に切り替え",
+    Settings: "設定",
+    "Appearance settings": "表示設定",
+    Appearance: "表示",
+    light: "ライト",
+    dark: "ダーク",
+    "Switch to light": "ライトモードに切り替え",
+    "Switch to dark": "ダークモードに切り替え",
     "Wecken's Works": "過去の制作",
     Works: "制作",
     card_description_kurashiru_store_01:

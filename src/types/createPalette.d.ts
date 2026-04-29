@@ -16,6 +16,11 @@ declare module "@mui/material/styles/createPalette" {
       white: {
         high: string
       }
+      surface: {
+        high: string
+        elevated: string
+        header: string
+      }
     }
   }
   interface Palette {
@@ -31,6 +36,11 @@ declare module "@mui/material/styles/createPalette" {
       }
       white: {
         high: string
+      }
+      surface: {
+        high: string
+        elevated: string
+        header: string
       }
     }
   }

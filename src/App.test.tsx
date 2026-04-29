@@ -11,5 +11,5 @@ test("renders the portfolio app", () => {
   )
 
   expect(screen.getByText(/About Wecken/i)).toBeInTheDocument()
-  expect(screen.getByText(/Current Language/i)).toBeInTheDocument()
+  expect(screen.getByLabelText(/Settings/i)).toBeInTheDocument()
 })

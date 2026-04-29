@@ -15,12 +15,13 @@ interface Props {
 
 const MediaCard: VFC<Props> = ({ title, subtitle, body, imageSrc, to }) => {
   const StyledCard = styled(Card)`
-    background-color: "white";
+    background-color: ${(props) => props.theme.palette.wecken.surface.high};
   `
   const StyledButtonBase = styled(ButtonBase)`
     max-width: 100%;
   `
   const StyledTypography = styled(Typography)`
+    color: ${(props) => props.theme.palette.wecken.black.high};
     text-align: left;
   `
 

@@ -6,6 +6,13 @@ export const EN_US = {
     "Language settings": "Language settings",
     "Switch to ja": "Switch to Japanese",
     "Switch to en": "Switch to English",
+    Settings: "Settings",
+    "Appearance settings": "Appearance settings",
+    Appearance: "Appearance",
+    light: "Light",
+    dark: "Dark",
+    "Switch to light": "Switch to light mode",
+    "Switch to dark": "Switch to dark mode",
     "Wecken's Works": "Wecken's Works",
     card_description_kurashiru_store_01:
       "Online select shop for quality food and sweets in the biggest recipe video app in Japan 'kurashiru' (service ended in 2020)",

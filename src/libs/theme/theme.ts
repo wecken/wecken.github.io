@@ -1,5 +1,7 @@
 import { createTheme } from "@mui/material/styles"
 
+export type ColorMode = "light" | "dark"
+
 // フォントを設定
 const fontFamily = [
   "Helvetica Neue",
@@ -11,7 +13,48 @@ const fontFamily = [
   "sans-serif",
 ].join(",")
 
-export const theme = createTheme({
+const lightPalette = {
+  primary: {
+    solid: "#347EED",
+  },
+  black: {
+    high: "#4F4F4F",
+    medium: "#828282",
+    20: "#E0E0E0",
+    10: "#F2F2F2",
+  },
+  white: {
+    high: "#ffffff",
+  },
+  surface: {
+    high: "#ffffff",
+    elevated: "rgba(255, 255, 255, 0.92)",
+    header: "rgba(255, 255, 255, 0.88)",
+  },
+}
+
+const darkPalette = {
+  primary: {
+    solid: "#7CB1FF",
+  },
+  black: {
+    high: "#F2F2F2",
+    medium: "#BDBDBD",
+    20: "#4F4F4F",
+    10: "#151515",
+  },
+  white: {
+    high: "#ffffff",
+  },
+  surface: {
+    high: "#242424",
+    elevated: "rgba(36, 36, 36, 0.92)",
+    header: "rgba(21, 21, 21, 0.88)",
+  },
+}
+
+export const createWeckenTheme = (mode: ColorMode) =>
+  createTheme({
   typography: {
     fontFamily: fontFamily, // フォント
     h1: {
@@ -46,6 +89,7 @@ export const theme = createTheme({
     },
   },
   palette: {
+    mode,
     // Primaryカラーを設定
     primary: {
       light: "#54C527",
@@ -60,20 +104,11 @@ export const theme = createTheme({
       dark: "#00a152",
       contrastText: "#ffffff",
     },
-    wecken: {
-      primary: {
-        solid: "#347EED",
-      },
-      black: {
-        high: "#4F4F4F",
-        medium: "#828282",
-        20: "#E0E0E0",
-        10: "#F2F2F2",
-      },
-      white: {
-        high: "#ffffff",
-      },
+    background: {
+      default: mode === "light" ? "#F2F2F2" : "#151515",
+      paper: mode === "light" ? "#ffffff" : "#242424",
     },
+    wecken: mode === "light" ? lightPalette : darkPalette,
   },
   mixins: {
     // ツールバーの高さ
@@ -82,5 +117,7 @@ export const theme = createTheme({
     },
   },
 })
+
+const theme = createWeckenTheme("light")
 
 export default theme

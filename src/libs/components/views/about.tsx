@@ -117,8 +117,8 @@ function About(): React.ReactElement {
       </Grid>
       <Grid
         display={"flex"}
-        direction={"column"}
-        wrap={"nowrap"}
+        flexDirection={"column"}
+        flexWrap={"nowrap"}
         padding={2}
         item
         alignSelf={"center"}
